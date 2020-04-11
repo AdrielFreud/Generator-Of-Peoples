@@ -4,7 +4,7 @@ var minhaPromise = function(){
 	return new Promise(function(resolve, reject) {
 		var xhr = new XMLHttpRequest();
 		// https://uinames.com/api/?ext&region=Brazil
-		xhr.open('GET', 'https://uinames.com/api/?ext&region=Brazil&amount=100');
+		xhr.open('GET', 'randomuser.me/api/?ext&region=Brazil&amount=100');
 		xhr.send(null);
 
 		xhr.onreadystatechange = function(){
